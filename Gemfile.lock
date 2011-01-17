@@ -1,0 +1,18 @@
+PATH
+  remote: .
+  specs:
+    global_boolean (0.1.0)
+
+GEM
+  remote: http://rubygems.org/
+  remote: http://ror-devel:9393/
+  specs:
+    gavdi-acolyte (0.1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (= 1.0.0)
+  gavdi-acolyte (= 0.1.1)
+  global_boolean!
