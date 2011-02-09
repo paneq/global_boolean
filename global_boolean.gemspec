@@ -9,13 +9,12 @@ Gem::Specification.new do |s|
   s.email       = ["robert.pankowecki@gmail.com", "rpa@gavdi.com"]
   s.homepage    = "http://rubygems.org/gems/global_boolean"
   s.summary     = "Easy parsing of string values to boolean types"
-  s.description = "Boolean()"
+  s.description = "Boolean() / GlobalBoolean.Boolean() methods."
 
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = "global_boolean"
 
-  s.add_development_dependency "bundler", "= 1.0.7" # Strict because we are overwriting some of its methods
-  s.add_development_dependency "gavdi-acolyte", "= 0.1.2"
+  s.add_development_dependency "bundler", "~> 1.0.7"
 
   s.files        = `git ls-files`.split("\n")
   s.executables  = `git ls-files`.split("\n").map{|f| f =~ /^bin\/(.*)/ ? $1 : nil}.compact
